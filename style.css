@@ -1,10 +1,167 @@
 
 
 /* --- YOUR CODE STARTS HERE --- */
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.post--cntr::-webkit-scrollbar {
+    width: 0;
+}
+ 
+.post--cntr::-webkit-scrollbar-track {
+    background: transparent;
+}
+ 
+.post--cntr::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
 
+.main-page--cntr {
+  max-width: 357px;
+  border: 1px solid #c9c8c9;
+  position: relative;
+}
 
+.top-nav--cntr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 10px;
+  border-bottom: 1px solid #c9c8c9; 
+}
 
+.top-nav--main_text {
+  font-weight: bold;
+}
 
+.post--cntr {
+  max-height: 535px;
+  overflow-y: scroll;
+}
 
+.post--meta_cntr {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post--author {
+  margin-right: 5px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.post--location {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.post--location .fa {
+  color: #909090;
+  font-size: 12px;
+}
+
+.post--meta--author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post--meta--author_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.post--icon {
+  height: 30px;
+  width: 30px;
+  background: lawngreen;
+  margin-right: 10px;
+}
+
+.post--more span {
+  font-size: 16px;
+}
+
+.post--image img {
+  width: 100%;
+}
+
+.post--text_cntr {
+  padding: 10px;
+}
+
+.post--interactions-cntr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post--interactions-cntr span {
+  font-size: 22px;
+  transition: .3s ease color;
+  cursor: pointer;
+}
+
+.post--interactions-cntr span:hover {
+  color: #004faa;
+}
+
+.interactions--public span {
+  margin: 0 5px;
+}
+
+.interactions--public span:first-of-type {
+  margin-left: 0;
+}
+
+.interactions--public span:last-of-type {
+  margin-right: 0;
+}
+
+.post--stats_cntr {
+  text-align: left;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.post--text {
+  text-align: left;
+  font-size: 14px;
+}
+
+.post--text a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #004faa;
+}
+
+.post--text p:first-of-type {
+  margin-top: 0;
+}
+
+.bottom-nav--cntr {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-top: 1px solid #c9c8c9;
+  background: #f9f9f9;
+  bottom: 0;
+}
+
+.bottom-nav--cntr span {
+  font-size: 24px;
+  transition: .3s ease color;
+  cursor: pointer;
+}
+
+.bottom-nav--cntr span:hover {
+  color: #004faa;
+}
 /* --- YOUR CODE ENDS HERE --- */
